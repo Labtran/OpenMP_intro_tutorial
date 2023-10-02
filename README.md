@@ -1,40 +1,37 @@
+Este diretório contém exercícios e soluções para um curso prático de
+curso prático de OpenMP.  Informações sobre esses programas podem ser encontradas
+nos comentários e nos slides do curso.
 
-
-This directory contains exercises and solutions for a hands-on
-OpenMP course.  Information about these programs can be found
-in the comments and in the slides from the course.
-
-To use these programs, copy the appropriate "def" file into
-"make.def".  For example on a linux system running the gnu 
-compilers, I'd type
+Para usar esses programas, copie o arquivo "def" apropriado para
+"make.def".  Por exemplo, em um sistema linux rodando os compiladores gnu 
+eu digitaria
 
   cp linux_gnu.def make.def
 
-Then build the programs and test them
+Então construa os programas e teste-os
 
    make test
 
-The solutions directory uses the same make.def file so to build
-the solutions, just type "make test".  The directory extras
-contains additional exercises for more advanced students.  These
-have not been as carefully tested and may have problems building
-and running on some systems.
+O diretório de soluções usa o mesmo arquivo make.def, então para construir
+as soluções, basta digitar "make test".  O diretório extras
+contém exercícios adicionais para estudantes mais avançados.  Estes
+não foram testados com o mesmo cuidado e podem ter problemas de compilação
+e execução em alguns sistemas.
 
-We have tested these programs under Linux with the gnu and Intel compilers,
-and Windows 7 with the intel compiler. We also tested these
-on OS-X with the gnu environment loaded with Apple's xcode.   Apple's
-OpenMP environment at this time does not support threadprivate
-variables so the pi_mc solutions will not build (and needs to 
-be commented out from the makefile).
+Testamos estes programas em Linux com os compiladores gnu e Intel,
+e no Windows 7 com o compilador Intel. Também testámos estes programas
+no OS-X com o ambiente gnu carregado com o xcode da Apple.   O ambiente OpenMP da Apple
+ambiente OpenMP da Apple não suporta variáveis threadprivate
+threadprivadas, então as soluções pi_mc não serão construídas (e precisam 
+ser comentadas no makefile).
 
-We have used these programs with the PGI compiler (pgi.def) 
-but we have not tested this case recently and it may need some work.
+Nós usamos esses programas com o compilador PGI (pgi.def) 
+mas não testámos este caso recentemente e pode precisar de algum trabalho.
 
-For windows users, to run these on Windows 7 we used the following
-procedure.  First go to the start menu, and select 
+Para os utilizadores do Windows, para executar estes programas no Windows 7, usámos o seguinte
+procedimento.  Primeiro, vá ao menu Iniciar e seleccione 
    
-    INtel parallel studio 2011/command prompt/ ia64 visual studio 2010 mode
+    INtel parallel studio 2011/ prompt de comando/ ia64 visual studio 2010 mode
 
-cd to the appropriate folder.  Copy win_intel.def to make.def and then
-use nmake to build
-
+cd para a pasta apropriada.  Copie win_intel.def para make.def e depois
+use o nmake para construir
