@@ -35,3 +35,5 @@ procedimento.  Primeiro, vá ao menu Iniciar e seleccione
 
 cd para a pasta apropriada.  Copie win_intel.def para make.def e depois
 use o nmake para construir
+
+## MPI
