@@ -42,8 +42,8 @@ use o nmake para construir
 + Slides: [Intro_To_OpenMP_Mattson.pdf](https://www.openmp.org/wp-content/uploads/Intro_To_OpenMP_Mattson.pdf)
 + Exercise files: [Mattson_OMP_exercises.zip](https://www.openmp.org/wp-content/uploads/Mattson_OMP_exercises.zip)
 + [An Overview of OpenMP – Ruud van der Pas – Sun Microsystems](https://www.openmp.org/wp-content/uploads/ntu-vanderpas.pdf)
-+ [Hands-On Introduction to OpenMP] (https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf), Mattson and Meadows, from SC08 (Austin) (PDF)
- + [Code Exercises] (https://www.openmp.org/wp-content/uploads/OMP_Exercises.zip) (zip)
++ [Hands-On Introduction to OpenMP](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf), Mattson and Meadows, from SC08 (Austin) (PDF)
+ + [Code Exercises](https://www.openmp.org/wp-content/uploads/OMP_Exercises.zip) (zip)
 + [Introduction to OpenMP tutorial](http://www.llnl.gov/computing/tutorials/openMP) from Lawrence Livermore National Lab.
 + [Tutorial on OdinMP C/C++ OpenMP compiler](http://www.ecs.umass.edu/ece/andras/pact_2003_tutorials.htm#OpenMP), support for instrumentation, and the run-time system for OpenMP developed in the Intone project, PACT 2003.
 + An [OpenMP tutorial in French](http://www.idris.fr/formations/openmp/) from the French Supercomputing Center for Scientific Research.
